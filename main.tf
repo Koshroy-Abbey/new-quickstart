@@ -6,8 +6,8 @@ locals {
   policies_path = "${local.project_path}/policies"
 }
 
-resource "abbey_grant_kit" "abbey_demo_site" {
-  name = "Abbey_Demo_Site"
+resource "abbey_grant_kit" "abbey_demo_site_new" {
+  name = "Abbey_Demo_Site_New"
   description = <<-EOT
     Grants access to Abbey's Demo Page.
   EOT

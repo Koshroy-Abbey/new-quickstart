@@ -1,6 +1,6 @@
 locals {
-  account_name = ""
-  repo_name = ""
+  account_name = "Koshroy-Abbey"
+  repo_name = "new-quickstart"
 
   project_path = "github://${local.account_name}/${local.repo_name}"
   policies_path = "${local.project_path}/policies"

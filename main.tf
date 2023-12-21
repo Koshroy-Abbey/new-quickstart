@@ -16,7 +16,7 @@ resource "abbey_grant_kit" "abbey_demo_site" {
     steps = [
       {
         reviewers = {
-          one_of = ["alice@example.com"] #CHANGEME
+          one_of = ["koushik@abbey.io"]
         }
       }
     ]
